@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: khaki;
+}
+.gallery{
+	/*float: left;*/
+	width: 750px;
+	height: 440px;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 10px;
+	/*text-align: center;*/
+	position: relative;
+}
+.gallery img {
+	position: absolute;
+		top: 10px;
+		width: 80px;
+		border: 3px solid #FFF;
+		height: 30px;
+}
+
+.gallery img:nth-of-type(1) {
+	left:10px;
+}
+.gallery img:nth-of-type(2) {
+	left:105px;
+}
+.gallery img:nth-of-type(3) {
+	left:200px;
+}
+.gallery img:hover {
+	width:740px;
+	height:380px;
+	top:50px;
+	left:10px:
+}
